@@ -4,8 +4,8 @@
 }
 
 body{
-    /* background-color: #000; */
-    background: linear-gradient(-25deg, #a7ef00, #00ef48);
+    background-color: #000;
+    /* background: linear-gradient(-25deg, #a7ef00, #00ef48); */
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
