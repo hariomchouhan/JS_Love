@@ -104,10 +104,10 @@ function renderWeatherInfo(weatherInfo) {
   desc.innerText = weatherInfo?.current?.condition?.text;
   // weatherIcon.src = `http://openweathermap.org/img/w/${weatherInfo?.weather?.[0]?.icon}.png`;
   weatherIcon.src = weatherInfo?.current?.condition?.icon;
-  temp.innerText = weatherInfo?.current?.temp_c;
-  windspeed.innerText = weatherInfo?.current?.wind_kph;
-  humidity.innerText = weatherInfo?.current?.humidity;
-  cloudiness.innerText = weatherInfo?.current?.cloud;
+  temp.innerText = `${weatherInfo?.current?.temp_c} °C`;
+  windspeed.innerText = `${weatherInfo?.current?.wind_kph} km/h`;
+  humidity.innerText = `${weatherInfo?.current?.humidity}%`;
+  cloudiness.innerText = `${weatherInfo?.current?.cloud}%`;
 }
 
 function getLocation() {
