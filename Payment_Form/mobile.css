@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px) {
+  input {
+    width: 90%;
+  }
+}
+
+@media (min-width: 900px) {
+  .boder {
+    width: 900px;
+  }
+}

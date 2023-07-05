@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <ul>
+        <li>
+          <a href="#"><img src="./assets/logo.jpg" alt="LAV" /></a>
+        </li>
+        <li><a href="#" class="nav-li">Home</a></li>
+        <li><a href="#" class="nav-li">About</a></li>
+        <li><a href="#" class="nav-li">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="boder">
+        <h1 class="header">Payment Form</h1>
+        <p id="para">
+          Secure Payment Debit Or Credit Card with My Payment System.
+        </p>
+
+        <form action="">
+          <div class="body">
+            <div class="elments">
+              <h3>Personal Information</h3>
+              <div class="divtag">
+                <label for="fullname" class="label">Full Name:</label>
+                <br />
+                <input
+                  type="text"
+                  name="name"
+                  id="fullname"
+                  placeholder="Full Name"
+                  required
+                />
+              </div>
+              <div class="divtag">
+                <label for="fullemail" class="label">Email:</label>
+                <br />
+                <input
+                  type="email"
+                  name="email"
+                  id="fullemail"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div class="divtag">
+                <label for="gender" class="label">Gender:</label>
+                <br />
+                Male<input type="radio" name="gender" id="gender" />
+                Female<input type="radio" name="gender" id="gender" />
+                Other<input type="radio" name="gender" id="gender" required />
+              </div>
+
+              <h3>Card Information</h3>
+
+              <div class="divtag">
+                <label for="cardname" class="label">Name on Card:</label>
+                <br />
+                <input
+                  type="text"
+                  name="cardname"
+                  id="cardname"
+                  placeholder="Card Name"
+                  required
+                />
+              </div>
+              <div class="divtag">
+                <label for="cardnumber" class="label">Card Number:</label>
+                <br />
+                <input
+                  type="number"
+                  name="cardnumber"
+                  id="cardnumber"
+                  autocomplete="cc-number"
+                  placeholder="&bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull; &bull;&bull;&bull;&bull;"
+                  required
+                />
+              </div>
+              <div class="divtag">
+                <label for="expdate" class="label">Card Exp. Date:</label>
+                <br />
+                <select name="expireMM" id="expdate">
+                  <option value="01">January</option>
+                  <option value="02">February</option>
+                  <option value="03">March</option>
+                  <option value="04">April</option>
+                  <option value="05">May</option>
+                  <option value="06">June</option>
+                  <option value="07">July</option>
+                  <option value="08">August</option>
+                  <option value="09">September</option>
+                  <option value="10">October</option>
+                  <option value="11">November</option>
+                  <option value="12">December</option>
+                </select>
+                <select name="expireYY" id="expdate">
+                  <option value="22">2022</option>
+                  <option value="23">2023</option>
+                  <option value="24">2024</option>
+                  <option value="25">2025</option>
+                  <option value="26">2026</option>
+                  <option value="27">2027</option>
+                  <option value="28">2028</option>
+                </select>
+              </div>
+              <div class="divtag">
+                <label for="cvv" class="label">Card CVV:</label>
+                <br />
+                <input
+                  type="number"
+                  name="cvv"
+                  id="cvv"
+                  max="4"
+                  placeholder="&bull;&bull;&bull;"
+                  required
+                />
+              </div>
+              <div class="btn divtag">
+                <button type="submit">Submit Now</button>
+                <button type="reset">Reset Now</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+        <div class="footer1">
+            <img src="./assets/logo.jpg" alt="LAV" />
+            <h2>Payment Form</h2>
+        </div>
+    </footer>
+    <footer>
+        <div class="footer2">
+            <li class="footer2Li">Disclaimer</li>
+            <li class="footer2Li">Term Of Use</li>
+            <li class="footer2Li">Privacy Policy</li>
+        </div>
+    </footer>
+  </body>
+</html>

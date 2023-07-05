@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+    /* background-color: rgb(145, 241, 166); */
+    /* opacity: 0.5; */
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(63, 245, 27);
+    color: white;
+    /* margin: 0 30px; */
+    justify-content: space-around;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    display: flex;
+    text-decoration: none;
+    /* padding: 22px 22px; */
+}
+.nav-li{
+    margin: 22px 22px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#navbar ul li img{
+    height: 80px;
+    mix-blend-mode: multiply;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.boder{
+    width: 90vw;
+    padding: 20px 20px;
+    /* height: 80%; */
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.header{
+    background-color: rgb(36 173 1);
+    text-align: center;
+    /* padding-bottom: 20px; */
+    /* padding-bottom: 20px; */
+    border: 1px solid gray;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+#para{
+    background-color: rgb(36 173 1);
+    text-align: center;
+    font-weight: bold;
+}
+.body{
+    
+    background-color: rgb(93, 241, 125);
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(190, 190, 190);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 20px;
+}
+/* .elements{
+    width: 100%;
+} */
+div{
+    padding: 20px 0px;
+}
+
+.label{
+    /* background-color: #4db2ec;; */
+    /* color: white; */
+    width: 100%;
+    /* border: 2px solid black; */
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+input{
+    width: 130%;
+    height: 25px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.btn button{
+    
+    color: white;
+    background-color: rgb(9, 235, 28);
+    border: 1px solid rgb(0, 148, 12);
+    border-radius: 5px;
+    outline: none;
+    height: 25px;
+    width: 100px;
+    font-weight: bold;
+    margin: 0 12px;
+}
+
+.btn button:hover{
+    color: rgb(9, 235, 28);
+    background-color: white;
+    cursor: pointer;
+    /* border-color: black; */
+}
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(63, 245, 27);
+}
+.footer1 img {
+    mix-blend-mode: multiply;
+}
+.footer2{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(32, 194, 0);
+    justify-content: center;
+}
+.footer2Li{
+    display: flex;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+    color: white;
+}
