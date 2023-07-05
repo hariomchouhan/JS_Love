@@ -81,7 +81,7 @@ h1 {
 }
 
 .grant-location-container.active {
-    display: none;
+    display: flex;
 }
 
 .grant-location-container img {
